@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=UoqMunThenKhung&display=swap');
 h1{	
 	color:#6fbb9a;	
 	text-align:center;
@@ -16,6 +17,9 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 }
+
+div{ background-color: #cffebe }
+
 
 #wrap{
 	width: 798px;
