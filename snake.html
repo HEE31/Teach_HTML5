@@ -1,6 +1,19 @@
-<h1> Snake Game</h1>
-<input type="button" value="Start" id="buttonStart">
-<br/>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+  <h1>🐍 Snake Game</h1>
+  <div id="game-container">
+    <input type="button" value="Start Game" id="buttonStart" />
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <p id="score">Score: 0</p>
+  </div>
+  <script src="snake.js"></script>
+</body>
+</html>
 
-<canvas id="canvas" width="400" height="400"></canvas>
-<script src="snake.js"></script>
